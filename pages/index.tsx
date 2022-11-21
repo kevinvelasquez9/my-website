@@ -33,8 +33,8 @@ export default function Home() {
             watch One Piece.
           </p>
           <p>
-            <span className="font-medium">Other things I enjoy</span>: chess,
-            plants, sneakers, stationery,{' '}
+            <span className="font-medium">Other things I enjoy</span>: bubble
+            tea, chess, plants, sneakers, stationery,{' '}
             <Hyperlink
               text="vim"
               href="https://github.com/kevinvelasquez9/nvim"
