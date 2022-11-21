@@ -4,36 +4,39 @@ import Section from '../components/section';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-slate-50 text-gray-800">
+    <div className="min-h-screen bg-slate-50 text-slate-700">
       <div className="container mx-auto px-10 md:px-40">
         <Header />
         <Section title="About me">
           <p>
-            Hi, I'm Kevin, a college student studying Computer Science at{' '}
+            <span className="font-semibold">Howdy!</span> I'm Kevin, a computer
+            science student at{' '}
             <Hyperlink
               text="Johns Hopkins University"
               href="https://www.jhu.edu"
             />
-            . Next year I'm excited to be joining{' '}
+            . I'm thrilled to be joining{' '}
             <Hyperlink text="Netflix" href="https://netflixtechblog.com" /> as a
-            full-time software engineer. Previously, I interned at the{' '}
+            full-time software engineer next year. I previously interned twice
+            at <Hyperlink text="Google" href="https://blog.google" /> and done
+            research at the{' '}
             <Hyperlink
               text="Applied Physics Laboratory"
               href="https://www.jhuapl.edu"
-            />{' '}
-            and twice at <Hyperlink text="Google" href="https://blog.google" />.
+            />
+            .
           </p>
           <p>
-            In my spare time, I like to{' '}
+            In my down time, I enjoy{' '}
             <Hyperlink
-              text="read"
+              text="reading"
               href="https://www.goodreads.com/kevinvelasquez"
             />{' '}
-            on my Kindle, try new restaurants, create Spotify playlists, and
-            watch One Piece.
+            on my Kindle, trying out new restaurants, making Spotify playlists,
+            and binge-watching One Piece.
           </p>
           <p>
-            <span className="font-medium">Other things I enjoy</span>: bubble
+            <span className="font-semibold">Other things I enjoy</span>: bubble
             tea, chess, plants, sneakers, stationery,{' '}
             <Hyperlink
               text="vim"
