@@ -15,4 +15,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Roadmap
 
 - [ ] Make side projects
-- [ ] Showcase projects to my website
+- [ ] Showcase projects on my website
